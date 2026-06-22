@@ -2,5 +2,6 @@
 <project version="4">
   <component name="SqlDialectMappings">
     <file url="file://$PROJECT_DIR$/DN-JavaFSE-Solutions/WEEK-1/PLSQL/Exercise1_ControlStructures.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/DN-JavaFSE-Solutions/WEEK-1/PLSQL/Exercise3_StoredProcedures.sql" dialect="OracleSqlPlus" />
   </component>
 </project>
