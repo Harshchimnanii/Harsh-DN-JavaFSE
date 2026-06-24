@@ -13,6 +13,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 
 import java.util.Date;
+import java.util.List; // Ye import zaroori tha List ke liye!
 
 @SpringBootApplication
 public class OrmLearnApplication {
@@ -31,32 +32,60 @@ public class OrmLearnApplication {
         LOGGER.info("Inside main");
 
         try {
-            // Hands-on 4: Test getting employee with department
-            testGetEmployee();
+            // ==========================================
+            // MODULE 2: O/R Mapping (Purane Tests Safe Hain)
+            // (Commented out taaki baar-baar duplicate insert na ho)
+            // ==========================================
+            // testGetEmployee();
+            // testAddEmployee();
+            // testUpdateEmployee();
+            // testGetDepartment();
+            // testAddSkillToEmployee();
 
-            // Hands-on 4: Test adding employee
-            testAddEmployee();
-
-            // Hands-on 4: Test updating employee
-            testUpdateEmployee();
-
-            // Hands-on 5: Test getting department with employees
-            testGetDepartment();
-
-            // Hands-on 6: Test adding skill to employee
-            testAddSkillToEmployee();
+            // ==========================================
+            // MODULE 3: HQL and Native Queries (NAYE TESTS)
+            // ==========================================
+            testGetAllPermanentEmployees();
+            testGetAverageSalary();
+            testGetAllEmployeesNative();
 
         } catch (Exception e) {
             LOGGER.error("Error occurred: ", e);
         }
     }
 
+    // --- Module 3 Methods ---
+
+    private static void testGetAllPermanentEmployees() {
+        LOGGER.info("Start: testGetAllPermanentEmployees");
+        List<Employee> employees = employeeService.getAllPermanentEmployees();
+        LOGGER.debug("Permanent Employees:{}", employees);
+        employees.forEach(e -> LOGGER.debug("Skills:{}", e.getSkillList()));
+        LOGGER.info("End: testGetAllPermanentEmployees");
+    }
+
+    private static void testGetAverageSalary() {
+        LOGGER.info("Start: testGetAverageSalary");
+        double avgSalary = employeeService.getAverageSalary(1); // Getting avg salary for Dept 1
+        LOGGER.debug("Average Salary of Dept 1 (Payroll): {}", avgSalary);
+        LOGGER.info("End: testGetAverageSalary");
+    }
+
+    private static void testGetAllEmployeesNative() {
+        LOGGER.info("Start: testGetAllEmployeesNative");
+        List<Employee> employees = employeeService.getAllEmployeesNative();
+        LOGGER.debug("All Employees Native: {}", employees);
+        LOGGER.info("End: testGetAllEmployeesNative");
+    }
+
+    // --- Module 2 Methods (Purana Code preserved) ---
+
     private static void testGetEmployee() {
         LOGGER.info("Start: testGetEmployee");
         Employee employee = employeeService.get(1);
         LOGGER.debug("Employee:{}", employee);
         LOGGER.debug("Department:{}", employee.getDepartment());
-        LOGGER.debug("Skills:{}", employee.getSkillList()); // For Hands-on 6
+        LOGGER.debug("Skills:{}", employee.getSkillList());
         LOGGER.info("End: testGetEmployee");
     }
 
