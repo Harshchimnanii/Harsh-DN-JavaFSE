@@ -33,7 +33,7 @@ public class OrmLearnApplication {
 
         try {
             // ==========================================
-            // MODULE 2: O/R Mapping (Purane Tests Safe Hain)
+            // MODULE 2: O/R Mapping
             // (Commented out taaki baar-baar duplicate insert na ho)
             // ==========================================
             // testGetEmployee();
