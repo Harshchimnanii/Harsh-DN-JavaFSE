@@ -1,7 +1,7 @@
 class FindMinMax{
     static int[] maxOrmin(int a[]){
         int min = a[0], max = a[0];
-        for (int i = 0; i < a.length; i++) {
+        for (int i = 1; i < a.length; i++) {
             if (min > a[i]) {
                 min = a[i];
             }
