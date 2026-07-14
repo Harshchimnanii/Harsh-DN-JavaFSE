@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9924ab6d-3b93-4b4d-ba33-ace645186a62" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/DAY_5/CollectionDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAY_2/NOThisKeyword.java" beforeDir="false" afterPath="$PROJECT_DIR$/DAY_2/NOThisKeyword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student-management-api/src/test/java/com/example/studentapi/StudentManagementApiApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/student-management-api/src/test/java/com/example/studentapi/StudentManagementApiApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3FWMmxiTs9QQ1hOMOETGtt1K5y2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "cognizant",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Lenovo/Harsh-DN-JavaFSE",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.build.tools.auto.reload": "ALL",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\Harsh-DN-JavaFSE" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\Harsh-DN-JavaFSE\DN-JavaFSE-Solutions\WEEK-2\1. spring-data-jpa-handson" />
+      <recent name="C:\Users\Lenovo\Harsh-DN-JavaFSE\DN-JavaFSE-Solutions\WEEK-2\Spring_Core_Maven" />
+    </key>
+  </component>
+  <component name="RunAnythingContextRecentDirectoryCache">
+    <option name="paths">
+      <recentPaths value="$PROJECT_DIR$/DAY_1" />
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9924ab6d-3b93-4b4d-ba33-ace645186a62" name="Changes" comment="" />
+      <created>1782186536564</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1782186536564</updated>
+    </task>
+    <servers />
+  </component>
+</project>
