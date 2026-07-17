@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9924ab6d-3b93-4b4d-ba33-ace645186a62" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DAY_5/CollectionDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAY_2/NOThisKeyword.java" beforeDir="false" afterPath="$PROJECT_DIR$/DAY_2/NOThisKeyword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student-management-api/src/test/java/com/example/studentapi/StudentManagementApiApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/student-management-api/src/test/java/com/example/studentapi/StudentManagementApiApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEMO_PROJECT/.idea/DEMO_PROJECT.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEMO_PROJECT/Demo_project/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEMO_PROJECT/Demo_project/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEMO_PROJECT/Demo_project/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEMO_PROJECT/Demo_project/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEMO_PROJECT/Demo_project/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEMO_PROJECT/Demo_project/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEMO_PROJECT/Demo_project/src/main/java/org/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEMO_PROJECT/Demo_project/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,23 +41,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "cognizant",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Lenovo/Harsh-DN-JavaFSE",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "settings.build.tools.auto.reload": "ALL",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;cognizant&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lenovo/Harsh-DN-JavaFSE&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.build.tools.auto.reload&quot;: &quot;ALL&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Lenovo\Harsh-DN-JavaFSE" />
