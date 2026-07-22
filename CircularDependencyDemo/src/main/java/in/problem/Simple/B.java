@@ -1,4 +1,4 @@
-package in.problem;
+package in.problem.Simple;
 
 public class B {
 }

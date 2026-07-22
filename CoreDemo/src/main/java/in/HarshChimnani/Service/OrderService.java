@@ -1,14 +1,14 @@
-package in.HarshChimnani;
+package in.HarshChimnani.Service;
 
 public class OrderService {
-    EmailService notification = new EmailService();
+    private notificationService Notification;
+
+    public OrderService(notificationService Notification){
+        this.Notification = Notification;
+    }
 
     public void PlaceOrder(){
         System.out.println("orderPlaced");
-        notification.PlacedNotification();
-    }
-    public void NotPlaceOrder(){
-        System.out.println("orderPlaced");
-        notification.NotPlacedNotification();
+        Notification.sendNotification();
     }
 }

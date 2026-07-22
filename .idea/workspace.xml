@@ -5,15 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9924ab6d-3b93-4b4d-ba33-ace645186a62" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DEMO_PROJECT/.idea/DEMO_PROJECT.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DEMO_PROJECT/Demo_project/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DEMO_PROJECT/Demo_project/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DEMO_PROJECT/Demo_project/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DEMO_PROJECT/Demo_project/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DEMO_PROJECT/Demo_project/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DEMO_PROJECT/Demo_project/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DEMO_PROJECT/Demo_project/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DEMO_PROJECT/Demo_project/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircularDependencyDemo/src/main/java/in/problem/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircularDependencyDemo/src/main/java/in/problem/Service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircularDependencyDemo/src/main/java/in/problem/Service/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreDemo/src/main/java/in/HarshChimnani/Service/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreDemo/src/main/java/in/HarshChimnani/Service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreDemo/src/main/java/in/HarshChimnani/Service/PopupNotificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreDemo/src/main/java/in/HarshChimnani/Service/SmsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreDemo/src/main/java/in/HarshChimnani/Service/notificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCoreDemo/src/main/java/in/HarshChimnani/PaymentHandling/CardPayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCoreDemo/src/main/java/in/HarshChimnani/PaymentHandling/NetBanking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCoreDemo/src/main/java/in/HarshChimnani/PaymentHandling/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCoreDemo/src/main/java/in/HarshChimnani/PaymentHandling/UPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCoreDemo/src/main/java/in/HarshChimnani/Service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCoreDemo/src/main/java/in/HarshChimnani/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCoreDemo/src/main/java/in/HarshChimnani/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCoreDemo2/src/main/java/in/BloodWork/CartService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +31,9 @@
   <component name="CompilerWorkspaceConfiguration">
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="262" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -31,6 +41,10 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8,
@@ -41,28 +55,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;cognizant&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lenovo/Harsh-DN-JavaFSE&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.build.tools.auto.reload&quot;: &quot;ALL&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "cognizant",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Lenovo/Harsh-DN-JavaFSE",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.build.tools.auto.reload": "ALL",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "to.speed.mode.migration.done": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Lenovo\Harsh-DN-JavaFSE" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\Harsh-DN-JavaFSE\" />
       <recent name="C:\Users\Lenovo\Harsh-DN-JavaFSE\DN-JavaFSE-Solutions\WEEK-2\1. spring-data-jpa-handson" />
       <recent name="C:\Users\Lenovo\Harsh-DN-JavaFSE\DN-JavaFSE-Solutions\WEEK-2\Spring_Core_Maven" />
     </key>
@@ -71,6 +97,14 @@
     <option name="paths">
       <recentPaths value="$PROJECT_DIR$/DAY_1" />
     </option>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-63390994e64e-intellij.indexing.shared.core-IU-262.8665.258" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.8665.258" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -81,5 +115,8 @@
       <updated>1782186536564</updated>
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>

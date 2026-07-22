@@ -1,10 +1,9 @@
-package in.HarshChimnani;
+package in.HarshChimnani.Service;
 
-public class EmailService {
-    public void PlacedNotification(){
-        System.out.println("Notification sent placed ");
+public class EmailService implements notificationService {
+    @Override
+    public void sendNotification(){
+        System.out.println("Notification sent to email ");
     }
-    public void NotPlacedNotification(){
-        System.out.println("Notification sent not placed ");
-    }
+
 }
