@@ -4,25 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9924ab6d-3b93-4b4d-ba33-ace645186a62" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/CircularDependencyDemo/src/main/java/in/problem/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CircularDependencyDemo/src/main/java/in/problem/Service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CircularDependencyDemo/src/main/java/in/problem/Service/PaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoreDemo/src/main/java/in/HarshChimnani/Service/EmailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoreDemo/src/main/java/in/HarshChimnani/Service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoreDemo/src/main/java/in/HarshChimnani/Service/PopupNotificationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoreDemo/src/main/java/in/HarshChimnani/Service/SmsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoreDemo/src/main/java/in/HarshChimnani/Service/notificationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringCoreDemo/src/main/java/in/HarshChimnani/PaymentHandling/CardPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringCoreDemo/src/main/java/in/HarshChimnani/PaymentHandling/NetBanking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringCoreDemo/src/main/java/in/HarshChimnani/PaymentHandling/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringCoreDemo/src/main/java/in/HarshChimnani/PaymentHandling/UPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringCoreDemo/src/main/java/in/HarshChimnani/Service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringCoreDemo/src/main/java/in/HarshChimnani/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringCoreDemo/src/main/java/in/HarshChimnani/config/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringCoreDemo2/src/main/java/in/BloodWork/CartService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9924ab6d-3b93-4b4d-ba33-ace645186a62" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
